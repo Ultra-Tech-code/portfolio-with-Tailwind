@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="/animate.css">
     <script src="https://kit.fontawesome.com/7cfa79e5d5.js" crossorigin="anonymous"></script>
@@ -16,7 +16,7 @@
     <nav class=" bg-[rgb(14,16,32)]">
         <div class="flex flex-col py-3 px-4 md:flex-row justify-between">
             <div class="md: mt-2">
-                <img src="/world-image.png" alt="logo">
+                <img src="img/world-image.png" alt="logo">
             </div>
 
             <div class="self-center md:flex flex-row">
@@ -37,7 +37,7 @@
     <!-- Hero -->
     <section class="container mx-auto my-32" id="hero">
         <div class="flex flex-col md:grid grid-cols-2 gap-4">
-            <img src="/illustre-preview.png" alt="" >
+            <img src="img/illustre-preview.png" alt="" >
             <div class="self-center">
                 <h1 class="text-2xl">Hello, I,m Isaac</h1>
                 <h1 class="text-5xl text-cyan-950 font-bold font-mono animate__animated  animate__heartBeat my-4">Full Stack <br> Blockchain Developer</h1>
@@ -158,8 +158,8 @@
             <span class="px-4"><i class="fab fa-css3-alt fa-4x"></i></span>
             <span class="px-4"><i class="fa fa-github fa-4x"></i></span>
             <span class="px-4"><i class="fab fa-git-alt fa-4x"></i></span>
-            <span class="px-4"><img src="/solidity-preview.png" alt="" class=" mt-[-30px] w-[64px] inline bg-white"></span>
-            <span class="px-4"><img src="/typescript.png" alt="" class=" mt-[-30px] w-[64px] inline bg-white"></span>
+            <span class="px-4"><img src="img/solidity-preview.png" alt="" class=" mt-[-30px] w-[64px] inline bg-white"></span>
+            <span class="px-4"><img src="img/typescript.png" alt="" class=" mt-[-30px] w-[64px] inline bg-white"></span>
 
 
         </div>
@@ -171,14 +171,14 @@
         <h1 class="text-center text-3xl font-bold text-[rgb(111,67,202)]"> 📬 Contact Me</h1>
         <div class="flex flex-col py-3 px-4 md:flex-row justify-between ">
             <div class="self-center md:flex flex-row basis-1/2">
-                    <form class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4 w-full h-full">
+                    <form class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4 w-full h-full" action="process.php" method="POST">
                         <div class="mb-4">
                           <label class="block text-gray-700 text-sm font-bold mb-2" for="email">Email </label>
-                          <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white" id="email" type="email" placeholder="email">
+                          <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white" id="email" name="email" type="email" placeholder="email">
                         </div>
                         <div class="mb-6">
                             <label for="message" class="block mb-2 text-sm text-gray-700 font-bold">Message</label>
-                            <textarea id="message" rows="4" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border focus:outline-none border-gray-300 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white" placeholder="Your message..."></textarea>
+                            <textarea id="message" rows="4" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border focus:outline-none border-gray-300 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white" name="message" placeholder="Your message..."></textarea>
                         </div>
                         <div class="text-center">
                           <button class="bg-indigo-500 hover:bg-indigo-400 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
@@ -188,7 +188,7 @@
                       </form>
             </div>
             <div class="md: m-2 basis-1/2">
-                <img src="/world.svg" alt="logo">
+                <img src="img/world.svg" alt="logo">
             </div>
         </div>  
     </section>
@@ -209,6 +209,5 @@ id="aisensy-wa-widget"
 widget-id="6lEeCb"
 >
 </script>
-
 
 </html>
