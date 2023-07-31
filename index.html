@@ -11,26 +11,27 @@
     <title>Adewale Iyanuoluwa Isaac | Portfolio</title>
 </head>
 <body class="bg-[rgb(8,14,23)] text-[#FEFFFE]">
-
     <!-- Navbar -->
-    <nav class=" bg-[rgb(14,16,32)]">
-        <div class="flex flex-col py-3 px-4 md:flex-row justify-between">
-            <div class="md: mt-2 w-14">
+    <nav class="sticky top-0  bg-[rgb(14,16,32)]">
+        <div class="flex flex-row py-3 px-4 justify-between">
+            <div class="md:mt-2 w-14">
                 <a href="#hero"><img src="img/apple-touch-icon.png" alt="logo"></a>
             </div>
-
-            <div class="self-center md:flex flex-row">
+            
+            <div class="hidden self-center md:flex flex-row">
                 <p class="m-4 mt-2 px-4 md:m-0"><a href="#hero" class="border-b-4 border-indigo-500 hover:border-indigo-300">Home</a></p>
                 <p class="m-4 px-4 md:m-0"><a href="#project" class="border-b-4 border-indigo-500 hover:border-indigo-300">About</a></p>
                 <p class="m-4 px-4 md:m-0"> <a href="#skills" class="border-b-4 border-indigo-500 hover:border-indigo-300">Skills</a></p>
                 <p class="m-4 px-4 md:m-0"><a href="#contact" class="border-b-4 border-indigo-500 hover:border-indigo-300">Contact</a></p>
             </div>
 
-            <div class="self-center gap-4">
-                <a href="https://twitter.com/i_hizick" class="text-blue-700 p-4 bg-slate-950 rounded-t-full"><i class="fa fa-twitter fa-2x"></i></a>
-                <a href="https://www.linkedin.com/in/iyanuoluwa-adewale-29198615b/" class="text-blue-700 p-4 bg-slate-950 rounded-t-full"><i class="fa fa-linkedin fa-2x"></i></a>
-                <a href="https://github.com/Ultra-Tech-code"class="text-blue-700 p-4 bg-slate-950 rounded-t-full" ><i class="fa fa-github fa-2x "></i></a>
+            <div class="self-center inline lg:gap-4">
+                <a href="https://twitter.com/i_hizick" class="text-blue-700 p-2 lg:p-4 bg-slate-950 rounded-t-full"><i class="fa fa-twitter fa-1x "></i></a>
+                <a href="https://www.linkedin.com/in/iyanuoluwa-adewale-29198615b/" class="text-blue-700 p-2 lg:p-4 bg-slate-950 rounded-t-full"><i class="fa fa-linkedin fa-1x"></i></a>
+                <a href="https://github.com/Ultra-Tech-code"class="text-blue-700 p-2 lg:p-4 bg-slate-950 rounded-t-full" ><i class="fa fa-github fa-1x "></i></a>
             </div>
+            
+            <i class="fa fa-bars fa-2x lg:hidden text-end" aria-hidden="true"></i>
         </div>  
     </nav>
 
@@ -51,6 +52,7 @@
     <section class="container mx-auto" id="project">
         <h1 class="text-4xl font-mono">My project</h1>
         <div class="grid grid-cols-1 mt-6 md:grid-cols-4 gap-4">
+
             <div class="shadow-xl md:h-80">
                 <a href="https://nolly-fix-react.vercel.app">  
                     <div class="overflow-hidden cursor-pointer relative group">
@@ -154,11 +156,11 @@
             <span class="px-4"><i class="fab fa-git-alt fa-4x"></i></span>
             <span class="px-4"><img src="img/solidity-preview.png" alt="" class=" mt-[-30px] w-[64px] inline bg-white"></span>
             <span class="px-4"><img src="img/typescript.png" alt="" class=" mt-[-30px] w-[64px] inline bg-white"></span>
-
-
         </div>
 
     </section>
+
+    <!-- Testimonial -->
 
    <!-- contact -->
     <section class="container mx-auto" id="contact">
@@ -193,6 +195,7 @@
         <p>  0x7B466079fFe08c820a6158a7ABFC7659DFbF4e1B</p>
 
     </section>   
+
 </body>
 
 <script 
